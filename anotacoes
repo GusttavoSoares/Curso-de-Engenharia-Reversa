@@ -1,0 +1,13 @@
+Aula 01 
+
+Engenharia reversa - técnica para descontruir programas para entender como foram feitos
+ldd hello - olha as bibliotecas que o programa depende
+EXEC -> LIB -> KERNEL (SYSCALLS)
+
+Os códigos gerados são compativeis com o processador do meu computador, exemplo amd e intel 64 ( entretanto roda nos 2), mas não vai rodar no processador arm (dispositivos móveis)
+
+Assembly - linguagem
+assembler - montador (quem construiu o programa, exemplo gcc)
+Disassembler - desmontador (quem desmonta, exemplo objdump)
+
+less /proc/cpuinfo - olha qual é o processador do computador
