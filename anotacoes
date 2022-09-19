@@ -1,4 +1,4 @@
-Aula 01 
+Aula 00
 
 Engenharia reversa - técnica para descontruir programas para entender como foram feitos
 ldd hello - olha as bibliotecas que o programa depende
@@ -11,3 +11,22 @@ assembler - montador (quem construiu o programa, exemplo gcc)
 Disassembler - desmontador (quem desmonta, exemplo objdump)
 
 less /proc/cpuinfo - olha qual é o processador do computador
+
+Aula 01
+
+Sistema de numeração
+0b na frente - binario -> print 0b10 (2)
+0 na frente - octal -> print 010 (8)
+0x na frente - hexadecimal -> print 0x10 (16)
+
+Aula 02
+
+Arquivos
+O que é? Qualquer sequência de binários salvo em um disco
+com ls -l da para ver o tamanho, data e hora do arquivo criado/modificado
+
+hd arquivo.txt - da para ver o tamanho do arquivo em hexadecimal
+od - mostra em octal
+
+Não existe dentro do arquivo informações de data de acesso ou modificação, apenas no filesystem
+todos os arquivos são binarios, não existe diferença entre um pdf e docx em seu conteudo
