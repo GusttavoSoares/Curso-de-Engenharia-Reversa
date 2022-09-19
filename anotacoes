@@ -30,3 +30,16 @@ od - mostra em octal
 
 Não existe dentro do arquivo informações de data de acesso ou modificação, apenas no filesystem
 todos os arquivos são binarios, não existe diferença entre um pdf e docx em seu conteudo
+
+Aula 03
+Arquivos binários
+
+Tipo de arquivos: texto, foto, música
+Todos os arquivos são binarios? Sim! Mas nem todo mundo fala desse jeito
+
+Arquivos binários são aqueles que tem código (programa)  exemplo os .exe
+
+Divisão
+.data - dados
+.text - código
+
