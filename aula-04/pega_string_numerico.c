@@ -5,7 +5,7 @@ int main(int argc, char *argv[]) {
   unsigned char byte;
 
   while(fread(&byte, sizeof(byte), 1, fp)) {
-    if(byte >= 0x20 && byte <= 0x7e)
+    if(byte >= 0x30 && byte <= 0x39)
     printf("%c", byte);
   }
 
@@ -14,3 +14,5 @@ int main(int argc, char *argv[]) {
 
   return 0;
 }
+
+// to run: ./pega_string_numero programinha

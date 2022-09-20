@@ -56,3 +56,7 @@ string - conjuntos em cadeias de bytes
 curiosidade
 o bell tem um song: echo -e \\x07
 
+app - wxHexEditor
+
+NÃO tem acentos na tabela ascii
+
