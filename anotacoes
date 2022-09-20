@@ -43,3 +43,16 @@ Divisão
 .data - dados
 .text - código
 
+Aula 04
+
+String de texto
+
+Textos não existem, são apenas números
+
+Para parecer ser um texto, é precisa ter uma relação, uma tabelação - ASCII
+man ascii - olha a tabela pelo terminal
+string - conjuntos em cadeias de bytes
+
+curiosidade
+o bell tem um song: echo -e \\x07
+
