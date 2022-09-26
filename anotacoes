@@ -60,3 +60,8 @@ app - wxHexEditor
 
 NÃO tem acentos na tabela ascii
 
+echo -n "a" | xxd -b retorna o que foi passado no echo de forma binária
+
+1 byte permite 256 caracteres diferentes
+file arquivo - verifica o padrao encondig do arquivo
+
